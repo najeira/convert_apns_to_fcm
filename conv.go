@@ -14,9 +14,9 @@ const (
 
 type Input struct {
 	ApiKey      string   `json:"-"`
-	Application string   `json:"application,omitempty"`
-	Sandbox     bool     `json:"sandbox,omitempty"`
-	ApnsTokens  []string `json:"apns_tokens,omitempty"`
+	Application string   `json:"application"`
+	Sandbox     bool     `json:"sandbox"`
+	ApnsTokens  []string `json:"apns_tokens"`
 }
 
 type Result struct {
